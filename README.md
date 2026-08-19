@@ -76,7 +76,7 @@ O código da Documental fica armazenado no [GitHub](https://github.com/), plataf
 
 Depois de pronta, a página pode ser publicada de duas formas. A primeira é pelo [GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/what-is-github-pages) (ver seção 5.1 Github Pages), serviço gratuito do próprio GitHub que transforma os arquivos do seu repositório em um site acessível na internet: você não contrata hospedagem, não configura servidor e não paga nada. O endereço da sua história fica no formato https://seu-usuario.github.io/nome-do-repositorio/, e depois é possível trocá-lo por um domínio próprio. A segunda forma é hospedar a página em um servidor da sua organização. 
 
-Há ainda uma terceira forma de publicar: em colaboração com a Agência Autônoma, em nossos servidores. Nessa modalidade, fornecemos a infraestrutura digital e o suporte técnico necessários para colocar a história no ar. Ela é voltada principalmente a movimentos sociais, organizações de base e agências cívicas. Se você tem um projeto que gostaria de publicar conosco, escreva para autonoma@autonoma.xyz.
+Há ainda uma terceira forma de publicar: em colaboração com a Agência Autônoma, em nossos servidores. Nessa modalidade, fornecemos a infraestrutura digital e o suporte técnico necessários para colocar a história no ar. Ela é voltada principalmente a movimentos sociais, organizações de base e agências cívicas. Se você tem um projeto que gostaria de publicar conosco, escreva para documental@autonoma.xyz.
 
 Em todos os casos, as páginas são compatíveis com diferentes dispositivos, incluindo desktop, tablet e mobile, mediante configuração. 
 
@@ -474,7 +474,7 @@ Tela inicial do Sveltia CMS – escolha "Work with Local Repository" para começ
 
 Você vai ser direcionado para a página do seu ambiente de trabalho, onde você vai encontrar todas as suas histórias (caso já tenha criado ou começado alguma), assim como a biblioteca de arquivos do seu ambiente de trabalho, onde seu material audiovisual deverá ser armazenado.
 
-No canto superior direito, você pode acessar as configurações do modo de edição, onde poderá escolher o modo claro ou escuro, assim como outras preferências.
+No canto superior direito, você pode acessar as configurações do modo de edição, onde poderá escolher o modo claro ou escuro, assim como outras preferências, como abrir uma **nova janela**, caso queira editar em duas telas, ou **fechar o ambiente de trabalho**. Também há a opção **limpar cache**, que recomendamos usar quando surgir qualquer problema de lentidão ou dificuldades na publicação, e **console**, caso seja um usuário avançado e queira checar alguma informação ou problema da página. 
 
 As páginas da sua geohistória da Documental podem ser organizadas por seções. Se a sua história for muito grande (maior do que 15 componentes – ver seção 4.7 Components), ela precisará ser dividida em subpáginas. Elas estarão todas dentro da mesma seção, conforme a imagem acima que mostra o projeto Nhanderekoa dividido em 3 páginas de edição. Para mais informações sobre a divisão de páginas, veja a próxima seção 4.2. Project.
 
@@ -1048,7 +1048,7 @@ Cole o link no campo Video URL, dentro do bloco Vídeo Embed.
 
 A plataforma da Documental foi montada pensando em que os usuários conseguissem, de forma fácil e gratuita, publicar suas páginas através do GitHub Pages. Mas, se você for um usuário avançado, também pode hospedar a página num servidor privado.
 
-Ao terminar de editar sua geohistória, clique em "publicar", no canto direito superior da tela para salvar e sincronizar o conteúdo no seu repositório GitHub. Se você deixou o GitHub Pages ativado, sua história será publicada automaticamente como um site acessível pelo seu repositório GitHub. Caso não esteja ativado, siga abaixo os passos para publicar sua história manualmente através do GitHub Pages.
+Ao terminar de editar sua geohistória, clique em "atualizar", e depois em "publicar", no canto direito superior da tela, para salvar e sincronizar o conteúdo no seu repositório GitHub. Se você deixou o GitHub Pages ativado, sua história será publicada automaticamente como um site acessível pelo seu repositório GitHub. Caso não esteja ativado, siga abaixo os passos para publicar sua história manualmente através do GitHub Pages.
 
 Feito isso, sua história está publicada em seu repositório! O formato do seu endereço URL ou domínio será algo como <seu_usuário>.[github.io/](http://github.io/)<seu_repositório> , e você pode divulgar esse link para compartilhar seu projeto.
 
@@ -1090,7 +1090,7 @@ Como o site gerado é estático, o servidor não precisa de banco de dados nem d
 
 ## 5.3 Site da Documental
 
-Você também pode propor uma colaboração e submeter a sua história para ser publicada no site oficial da [Documental](https://documental.xyz/). Para entrar em contato, envie um e-mail para a [agência](https://www.advocacia.autonoma.xyz/) [a](https://www.advocacia.autonoma.xyz/) [utônoma](https://www.advocacia.autonoma.xyz/) em autonoma@autonoma.xyz.
+Você também pode propor uma colaboração e submeter a sua história para ser publicada no site oficial da [Documental](https://documental.xyz/). Para entrar em contato, envie um e-mail para a [agência](https://www.advocacia.autonoma.xyz/) [a](https://www.advocacia.autonoma.xyz/) [utônoma](https://www.advocacia.autonoma.xyz/) em documental@autonoma.xyz.
 
 -----
 
