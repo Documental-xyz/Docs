@@ -330,7 +330,7 @@ O Mapbox Studio consiste numa plataforma em que você fará o upload dos dados g
 
 Atualmente, o Mapbox Studio aceita o formato GeoTIFF para arquivos em malha (raster) e diversos outros para dados vetoriais (MBTiles, KML, GPX, GeoJSON, Shapefile zipado ou tabelas CSV). Você pode usar uma solução online e de código aberto como o [QGIS](https://qgis.org) ou o [Mapshaper](https://mapshaper.org/) para criar os seus geodados ou para fazer conversão de formatos.
 
-Você também pode criar os seus dados diretamente dentro do Mapbox, através da criação de um Dataset – porém softwares como o QGIS são mais completos em termos de ferramentas para a criação e edição desses dados.
+Depois de fazer o upload dos seus dados no Mapbox, você pode editá-los dentro da aba [Data Workbench](https://docs.mapbox.com/console-tools/data-workbench/), e inserir pontos, linhas e polígonos, editar propriedades vinculadas aos dados, entre outras Funcionalidades. Porém, softwares como o QGIS são mais completos em termos de ferramentas para a criação e edição desses dados. 
 
 ## 3.1 Boas práticas na organização dos dados
 
@@ -338,10 +338,9 @@ Antes de enviar qualquer coisa para o Mapbox, vale organizar os dados. Algumas d
 
 O Mapbox guarda os dados geográficos em [Data Workbench](https://docs.mapbox.com/console-tools/data-workbench/), e os intitula de [tilesets](https://docs.mapbox.com/help/glossary/tileset/). Um tileset é um conjunto de dados recortados em pequenos quadrados em vários níveis de zoom, de modo que o mapa carregue apenas os pedaços da área visível – o que o deixa rápido no navegador e no celular.
 
-Duas restrições do Mapbox orientam a forma de organizar o material:
+Uma restrição do Mapbox que orienta a forma de organizar o material:
 
-- A versão gratuita permite o upload de 15 tilesets por mapa. Isso não significa apenas 15 dados: um tileset é uma coleção e pode reunir mais de um geodado.
-- Cada tileset aceita um único tipo de geometria. Na prática, isso significa separar o material em tilesets distintos – um com polígonos, outro só com pontos, outro só com linhas.
+-  O Mapbox permite o upload de 15 tilesets por mapa. Isso não significa apenas 15 dados: um tileset é uma coleção e pode reunir mais de um geodado.
 
 Duas boas práticas ajudam bastante daqui em diante:
 
