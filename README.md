@@ -1,4 +1,3 @@
-<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/c6212a46-f822-41d0-a06a-f51ba590b84d" />DOCUMENTAL
 Plataforma aberta de geohistórias
 Guia de instalação e uso
 Da criação da conta à publicação da sua geohistória na internet.
