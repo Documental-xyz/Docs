@@ -1,4 +1,4 @@
-DOCUMENTAL
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/c6212a46-f822-41d0-a06a-f51ba590b84d" />DOCUMENTAL
 Plataforma aberta de geohistórias
 Guia de instalação e uso
 Da criação da conta à publicação da sua geohistória na internet.
@@ -276,6 +276,8 @@ Tela de criação do ambiente de trabalho.
 | Destino do novo repositório | Onde a cópia do repositório da Documental será criada: na sua conta pessoal ou em uma organização da qual você participa |
 
 > **Escolha bem a pasta local:** é nela que sua história estará armazenada enquanto você trabalha. Vale incluí-la nos seus backups e evitar pastas sincronizadas automaticamente por outros serviços de nuvem, como Dropbox ou Google Drive, que podem entrar em conflito com o controle de versões do Git.
+
+> Se você não alterou o caminho de salvamento da pasta, muito provavelmente o seu ambiente de trabalho está dentro da pasta Workspaces, criada pelo aplicativo da Documental, em: Disco Local (C:) > Users > (nome do seu usuário) > Workspaces  
 
 > **A escolha do seu repositório:** vale a pena consultar mais informações sobre [onde criar o seu repositório no GitHub](https://docs.github.com/pt/repositories/creating-and-managing-repositories/about-repositories#about-repository-ownership). Ele pode ser vinculado diretamente à sua conta pessoal, pode ser criado dentro de uma organização, ou ser organizado dentro de subpastas. Essa escolha é importante para organizar suas geohistórias na plataforma, e também pode influenciar no endereço do site, caso você opte por publicá-las por meio do GitHub Pages.
 
@@ -1191,6 +1193,35 @@ Além das alternativas acima, há a opção de utilizar o [Svelte](https://svelt
 -----
 
 # 7. Problemas comuns
+
+## 7.1 Desinstalando a sua versão do aplicativo antes de instalar uma versão nova
+
+O aplicativo da Documental não possui um mecanismo de desinstalação, de maneira que se você deseja ou lhe foi recomendado instalar uma versão mais atualizada, que tem algumas correções de bugs específicos, você deve desinstalar a versão existente no seu dispositivo antes de instalar uma versão nova. Importante sinalizar que ao remover o aplicativo do seu dispositivo através dos passos que serão indicados a seguir, o conteúdo das páginas que você criou não será afetado, esse conteúdo fica guardado em outra pasta, num outro caminho do seu dispositivo, e você conseguirá abrir esse conteúdo novamente depois que a versão nova do aplicativo estiver instalada. 
+
+Em cada sistema operacional há um caminho diferente indicado para remover a versão do aplicativo da Documental existente no seu dispositivo. Veja abaixo:
+> 
+> MacOS
+> ~/Library/Application Support/Documental
+> 
+> OBS: ~/Library é uma pasta oculta no Finder. Para acessá-la, pressione ⌘ + Shift + G e digite: ~/Library/Application Support/
+> 
+> Windows
+> C:\Usuários\<seu_usuário>\AppData\Roaming\Documental
+> 
+> OBS: AppData é uma pasta oculta no explorer. Para acessá-la:
+> Windows 11: Exibir → Mostrar → Itens ocultos.
+> Windows 10: guia Exibir → marque Itens ocultos.
+> 
+> LINUX
+> - ~/.config/Documental
+> 
+> OBS: .config é uma pasta oculta no Linux por padrão. Na maioria dos gerenciadores de arquivo basta pressionar CRTL+h para visualizar ou ocultar
+
+Depois de remover o aplicativo existente, vá até a homepage da Documental e realize o download da versão mais atualizada do app e depois execute o instalador. Depois de seguir os passos de configuração da sua conta do Github, para abrir a pasta de trabalho que você estava utilizando na versão anterior da Documental, em Ambiente de Trabalho > clique em Abrir Pasta > e siga os passos para selecionar a localização da pasta do seu ambiente de trabalho que está guardada no seu dispositivo. 
+
+> Se você não alterou o caminho de salvamento da pasta quando você criou o seu ambiente de trabalho, muito provavelmente o seu ambiente de trabalho está dentro da pasta Workspaces, criada pelo aplicativo da Documental, em: Disco Local (C:) > Users > (nome do seu usuário) > Workspaces 
+
+## 7.2 Outros problemas comuns
 
 | Sintoma | Causa provável | Solução |
 | --- | --- | --- |
