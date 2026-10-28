@@ -1047,7 +1047,9 @@ Cole o link no campo Video URL, dentro do bloco Vídeo Embed.
 
 A plataforma da Documental foi montada pensando em que os usuários conseguissem, de forma fácil e gratuita, publicar suas páginas através do GitHub Pages. Mas, se você for um usuário avançado, também pode hospedar a página num servidor privado.
 
-Ao terminar de editar sua geohistória, clique em "atualizar", e depois em "publicar", no canto direito superior da tela, para salvar e sincronizar o conteúdo no seu repositório GitHub. Se você deixou o GitHub Pages ativado, sua história será publicada automaticamente como um site acessível pelo seu repositório GitHub. Caso não esteja ativado, siga abaixo os passos para publicar sua história manualmente através do GitHub Pages.
+Ao terminar de editar sua geohistória, clique em "publicar", no canto direito superior da tela, para salvar e sincronizar o conteúdo no seu repositório GitHub. 
+
+Se você deixou o GitHub Pages ativado, sua história será publicada automaticamente como um site acessível pelo seu repositório GitHub. Caso não esteja ativado, siga os passos disponíveis na seção 5.1 GitHub Pages para publicar sua história manualmente através do GitHub Pages.
 
 Feito isso, sua história está publicada em seu repositório! O formato do seu endereço URL ou domínio será algo como <seu_usuário>.[github.io/](http://github.io/)<seu_repositório> , e você pode divulgar esse link para compartilhar seu projeto.
 
