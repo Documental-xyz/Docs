@@ -1064,6 +1064,10 @@ O formato do endereço da sua página do Github Pages será por default algo com
 
 ![](images/image71.png)
 
+Abaixo, uma imagem da página publicada na instância Main, utilizando o endereço default fornecido pelo Github Pages.
+
+![](images/image72.png)
+
 Se você quiser, você pode continuar publicando suas páginas através do Github Pages porém utilizando um endereço (domínio) personalizado, como um endereço que remeta a sua organização ou ao nome do seu projeto. 
 [Verifique aqui](https://docs.github.com/pt/pages/configuring-a-custom-domain-for-your-github-pages-site) o que você precisa fazer para utilizar um domínio personalizado no seu endereço do Github Pages. 
 
