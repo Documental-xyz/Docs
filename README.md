@@ -1047,13 +1047,24 @@ Cole o link no campo Video URL, dentro do bloco Vídeo Embed.
 
 A plataforma da Documental foi montada pensando em que os usuários conseguissem, de forma fácil e gratuita, publicar suas páginas através do GitHub Pages. Mas, se você for um usuário avançado, também pode hospedar a página num servidor privado.
 
-Ao terminar de editar sua geohistória, clique em "publicar", no canto direito superior da tela, para salvar e sincronizar o conteúdo no seu repositório GitHub. 
+Ao terminar de editar sua geohistória, clique em "publicar", no canto direito superior da tela, para salvar e sincronizar o conteúdo no seu repositório GitHub. Se você deixou o GitHub Pages ativado, sua história será publicada automaticamente como um site acessível pelo seu repositório GitHub. Caso não esteja ativado, siga os passos na seção 5.1 Github Pages para publicar sua história manualmente através do GitHub Pages.
 
-Se você deixou o GitHub Pages ativado, sua história será publicada automaticamente como um site acessível pelo seu repositório GitHub. Caso não esteja ativado, siga os passos disponíveis na seção 5.1 GitHub Pages para publicar sua história manualmente através do GitHub Pages.
+![](images/image69.png)
 
-Feito isso, sua história está publicada em seu repositório! O formato do seu endereço URL ou domínio será algo como <seu_usuário>.[github.io/](http://github.io/)<seu_repositório> , e você pode divulgar esse link para compartilhar seu projeto.
+**Recurso de Upload:** Se houver alguma alteração na sua história no seu repositório do GitHub, a Documental irá te avisar durante o processo de Publicação, te sinalizando para realizar o "Upload" da versão remota da página. Essas alterações no GitHub podem existir caso você tenha realizado alguma alteração manualmente no seu repositório dentro do site do GitHub. Esse botão também é importante caso você esteja trabalhando numa página postada dentro de uma Organização do GitHub, que permite que mais de um usuário do Github  realize alterações na mesma página. Nesse caso é importante manter a boa prática de realizar o Upload do conteúdo da página antes de fazer as suas modificações localmente através do aplicativo da Documental.
 
-Para ter um domínio personalizado, é necessário ter a assinatura de um plano pago do GitHub ou configurar uma integração com um serviço de hospedagem próprio.
+**Publicação na instância Preview**: Um aspecto importante do sistema de publicação da Documental é que, quando você clica para Publicar a alteração realizada na sua página pela primeira vez, a Documental irá automaticamente direcionar a publicação da alteração para uma **instância de Preview**. Significa que a sua página será publicada num endereço do GitHub específico, criado para que você visualize, compartilhe o link específico da instância de Preview com colegas de trabalho, e aprove as alterações feitas na página antes de publicar no endereço oficial. Pode notar quando seguir os passos da Publicação, que o aplicativo da Documental irá selecionar a "branch" de destino como a de Preview. 
+
+O formato do endereço da sua página do Github Pages será por default algo como <seu_usuário>.[github.io/](http://github.io/)<seu_repositório> . Feita a sua primeira publicação na instância de Preview, sua história será publicada online através de um endereço específico, que insere um campo novo nessa URL, tornando-se algo como: <seu_usuário>.[github.io/](http://github.io/)<preview/><seu_repositório> . Você pode ver um exemplo do endereço da instância de preview abaixo: 
+
+![](images/image70.png)
+
+**Publicação na instância Main**: Seguindo o workflow indicado, se as alterações realizadas no aplicativo da Documental e publicadas no endereço da instância de Preview estiverem aprovadas, você pode voltar para o aplicativo e publicar na "branch" Main. Ao selecionar o botão de Publicar, troque a branch de Preview para Main, como está indicado na imagem abaixo, e a sua página será publicada online no endereço criado pelo seu Github Pages (<seu_usuário>.[github.io/](http://github.io/)<seu_repositório>). A sua história estará pronta pra ser compartilhada com outras pessoas! 
+
+![](images/image71.png)
+
+Se você quiser, você pode continuar publicando suas páginas através do Github Pages porém utilizando um endereço (domínio) personalizado, como um endereço que remeta a sua organização ou ao nome do seu projeto. 
+[Verifique aqui](https://docs.github.com/pt/pages/configuring-a-custom-domain-for-your-github-pages-site) o que você precisa fazer para utilizar um domínio personalizado no seu endereço do Github Pages. 
 
 Sempre que uma história é publicada pela Documental, pedamos que seja mencionada a frase abaixo, como forma de apoiar o desenvolvimento da plataforma:
 
